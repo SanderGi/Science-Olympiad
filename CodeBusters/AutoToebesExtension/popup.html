@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Autoebes</title>
+  </head>
+  <body>
+    <div style="height: auto; width: 300px; border: 1px solid black; padding-left: 20px; padding-bottom: 20px;">
+        <h1>Autoebes</h1>
+        <p>Timed Aristocrat: 1</p>
+        <label>Aristocrats (0-10):</label>
+        <input type="number" id="Aristocrats" name="Aristocrats" min="0" max="10" value="0">
+        <select name="AristocratsHint" id="AristocratsHint">
+            <option value="2">No Hint</option>
+            <option value="0">First Word</option>
+            <option value="1">One Letter</option>
+        </select>
+        <br>
+        <label>Patristocrats (0-10):</label>
+        <input type="number" id="Patristocrats" name="Patristocrats" min="0" max="10" value="0">
+        <select name="PatristocratsHint" id="PatristocratsHint">
+            <option value="2">No Hint</option>
+            <option value="0">First Word</option>
+            <option value="1">One Letter</option>
+        </select>
+        <br>
+        <label>Affine (0-10):</label>
+        <input type="number" id="Affine" name="Affine" min="0" max="10" value="0">
+        <select name="AffineHint" id="AffineHint">
+            <option value="E">Encode</option>
+            <option value="D">Decode</option>
+            <option value="C">Decrypt (hard)</option>
+        </select>
+        <br>
+        <label>Caesar (0-10):</label>
+        <input type="number" id="Caesar" name="Caesar" min="0" max="10" value="0">
+        <select name="CaesarHint" id="CaesarHint">
+            <option value="E">Encode</option>
+            <option value="D">Decode</option>
+        </select>
+        <br>
+        <label>Vigenere (0-10):</label>
+        <input type="number" id="Vigenere" name="Vigenere" min="0" max="10" value="0">
+        <select name="VigenereHint" id="VigenereHint">
+            <option value="E">Encode</option>
+            <option value="D">Decode</option>
+            <option value="C">Decrypt</option>
+        </select>
+        <br>
+        <label>Hill2x2 (0-10):</label>
+        <input type="number" id="Hill2x2" name="Hill2x2" min="0" max="10" value="0">
+        <select name="Hill2x2Hint" id="Hill2x2Hint">
+            <option value="E">Encode</option>
+            <option value="D">Decode</option>
+            <option value="C">Decrypt (matrix)</option>
+        </select>
+        <br>
+        <label>Hill3x3 (0-10):</label>
+        <input type="number" id="Hill3x3" name="Hill3x3" min="0" max="10" value="0">
+        <select name="Hill3x3Hint" id="Hill3x3Hint">
+            <option value="E">Encode</option>
+            <option value="D">Decode</option>
+        </select>
+        <br>
+        <label>Xenocrypts (0-10):</label>
+        <input type="number" id="Xenocrypts" name="Xenocrypts" min="0" max="10" value="0">
+        <select name="XenocryptsHint" id="XenocryptsHint">
+            <option value="2">No Hint</option>
+            <option value="0">First Word</option>
+            <option value="1">One Letter</option>
+        </select>
+        <br>
+        <label>Baconian (0-10):</label>
+        <input type="number" id="Baconian" name="Baconian" min="0" max="10" value="0">
+        <select name="BaconianHint" id="BaconianHint">
+            <option value="W">Words</option>
+            <option value="L">Let4Let</option>
+            <option value="S">Sequence</option>
+        </select>
+        <br>
+        <label>RSA (0-10):</label>
+        <input type="number" id="RSA" name="RSA" min="0" max="10" value="0">
+        <select name="RSAHint" id="RSAHint">
+            <option value="E">Find Key</option>
+            <option value="D">Decode</option>
+        </select>
+        <br>
+        <label>Morbit (0-10):</label>
+        <input type="number" id="Morbit" name="Morbit" min="0" max="10" value="0">
+        <select name="MorbitHint" id="MorbitHint">
+            <option value="C">Decrypt</option>
+            <option value="D">Decode</option>
+        </select>
+        <br>
+        <label>Pollux (0-10):</label>
+        <input type="number" id="Pollux" name="Pollux" min="0" max="10" value="0">
+        <select name="PolluxHint" id="PolluxHint">
+            <option value="C">Decrypt</option>
+            <option value="D">Decode</option>
+        </select>
+        <br>
+        <br>
+        <button id="loadTest">Load Test</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

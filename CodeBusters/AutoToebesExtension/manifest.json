@@ -1,0 +1,10 @@
+{
+    "name": "Autoebes",
+    "description": "This extension loads an auto generated codebusters test into toebes.com/codebusters/TestGenerator.html",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
