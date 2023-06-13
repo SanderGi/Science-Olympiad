@@ -6,7 +6,7 @@ This Science Olympiad event was centered around electrical engineering and chemi
 ## What I did
 I created a dual voltage divider circuit (similar to a Wheatstone bridge) to measure the voltage drop in a fixed distance (and at a fixed submersion) of the fluid using a differential ADC (namely the NAU7802). I then implemented a driver to interface with this ADC over the I2C protocol on my Raspberry Pi and implemented a curvefitting program to callibrate the sensor to convert voltage readings to salt concentration in ppm.
 
-Read the [https://github.com/SanderGi/Science-Olympiad/blob/main/Detector/C05_DetectorBuilding_SpecSheet.docx](specsheet) for a technical breakdown of my circuit, sensor and program.
+Read the (specsheet)[https://github.com/SanderGi/Science-Olympiad/blob/main/Detector/C05_DetectorBuilding_SpecSheet.docx] for a technical breakdown of my circuit, sensor and program.
 
 ## Some challenges I had to overcome
 - Noisy data: Tackled by creating a regulated reference voltage and callibrating the ADC for natural sensor decline and variability, plus higher ADC sample rate to use digital processing to smooth out most of the noise
